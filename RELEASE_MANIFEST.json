@@ -1,0 +1,172 @@
+{
+  "release": "website-leptoscope",
+  "version": "6.1.0",
+  "behavior_change": "Prediksi bulan berjalan menggunakan bulan kalender terakhir yang sudah lengkap. Pada 2 Oktober 2026: input September 2026, target Oktober 2026.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 114,
+      "sha256": "a6694a49ccc28900ac710543718fa829ccb6692a20cd16c116353570381e4c26"
+    },
+    {
+      "path": ".python-version",
+      "size_bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "Dockerfile",
+      "size_bytes": 221,
+      "sha256": "370898b54f5560999ac526d8aaf071cd0bb13a821fc400c6212d70639629b8f6"
+    },
+    {
+      "path": "Procfile",
+      "size_bytes": 57,
+      "sha256": "fa21a2afc16da901985478c2d5806c4e35dce811512b69d1f757b266bbb07c67"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2508,
+      "sha256": "9987247fe3c421fc5600ff1db41875ca3eaffd7cedd44bcab38a98754bda74cb"
+    },
+    {
+      "path": "backend/__init__.py",
+      "size_bytes": 34,
+      "sha256": "7143f4721d78af035970b93854c0ea7d77a8429ddf63625b51cc5a0bc265161e"
+    },
+    {
+      "path": "backend/app.py",
+      "size_bytes": 14519,
+      "sha256": "641b4ac591d8bda98f17fa44d61c5618a6e01ae8aef90481e24c336ffb5b0560"
+    },
+    {
+      "path": "backend/realtime_v5.py",
+      "size_bytes": 31242,
+      "sha256": "ca0035c70e2b7e530a6385b59a695e2aa408d1c2b7d7bddf7d76036c50a7ade3"
+    },
+    {
+      "path": "backend/simulation_v4.py",
+      "size_bytes": 13083,
+      "sha256": "23ca493fe05bc54048485bd63b0838da0a91a0deab2b808543b18c79bea9b83d"
+    },
+    {
+      "path": "backend/timeseries_v6.py",
+      "size_bytes": 11657,
+      "sha256": "9ff605901228adfe57053e206042f9cd63ac9c0bf472e2a4a815d70f91a74973"
+    },
+    {
+      "path": "data/leptoscope_model_dataset.csv",
+      "size_bytes": 282794,
+      "sha256": "49e61f71892ce0e55f3832bd51ef60fb973bfface9102fcabfac42a83d5cd162"
+    },
+    {
+      "path": "data_live/.gitkeep",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data_live/README_DATA_KASUS.txt",
+      "size_bytes": 688,
+      "sha256": "5d69ac6758dbb9c4c65fe60c115815acf92356089d937c3c0279d4a83645c3fa"
+    },
+    {
+      "path": "data_live/kasus_terbaru_TEMPLATE.csv",
+      "size_bytes": 2113,
+      "sha256": "b7f7dcb6344d6fc345c78bfe61606d3e3cd528d78c959b6d04b0a5f50ee25b5e"
+    },
+    {
+      "path": "data_static/README_POPULATION.txt",
+      "size_bytes": 790,
+      "sha256": "c714e0f2f8accedbb7b66eb4040d00e57ead6689f240e172cc846fbf0969e453"
+    },
+    {
+      "path": "data_static/population_semarang_2025_2026.csv",
+      "size_bytes": 1036,
+      "sha256": "ac6c9cc1adc8cf75d76b160492b2e465e41a947a795944b6e921571011112d74"
+    },
+    {
+      "path": "dist/dashboard-v22.css",
+      "size_bytes": 2423,
+      "sha256": "2c7d461f73ddb30554e3592f8db9be25bc87ccd81e3e592c2eb7e0c434af2663"
+    },
+    {
+      "path": "dist/dashboard-v22.js",
+      "size_bytes": 37745,
+      "sha256": "0b4445caadbf368904784f46e96a86de4879c26682873075e4e87a4621dd140d"
+    },
+    {
+      "path": "dist/data/fasilitas_kesehatan.geojson",
+      "size_bytes": 7385,
+      "sha256": "b058dd1b874cd349cdc86c880eb250fcb0cd7a0090d3c51a4f854e71290e57cf"
+    },
+    {
+      "path": "dist/data/model_metadata.json",
+      "size_bytes": 795,
+      "sha256": "67b4b695b6d475ead4431929cbdf03f6aee966f62b33077ffddd2360c16310df"
+    },
+    {
+      "path": "dist/data/risk_kecamatan_2023.geojson",
+      "size_bytes": 723731,
+      "sha256": "8fc8953a4577ab78e0b66716574b65e4f64912c94692d95543d2ae643a02e86c"
+    },
+    {
+      "path": "dist/index.html",
+      "size_bytes": 11075,
+      "sha256": "973a45772da8e36a8e0e35e1920ead09bce666b0740f059edfa5924090ac959a"
+    },
+    {
+      "path": "dist/model-metrics-v3.js",
+      "size_bytes": 3619,
+      "sha256": "ae35ccebbcc57267dd99d9d964ffc534854cceee6c7d213703cff4814d6cb43a"
+    },
+    {
+      "path": "dist/simulation-v20.css",
+      "size_bytes": 12902,
+      "sha256": "e472481420e380bedf3f78121c8867c98181f6baad968d69386949c97e49f61e"
+    },
+    {
+      "path": "dist/simulation-v20.js",
+      "size_bytes": 23944,
+      "sha256": "091e920debed588166fd880326900700cf8e4890baa2a91a58e6ee508c24bd61"
+    },
+    {
+      "path": "dist/styles.css",
+      "size_bytes": 24875,
+      "sha256": "e3b71821aa1460af7a22310a2391647cae5bcc0d17bc9b77b3a316c8a08e2513"
+    },
+    {
+      "path": "docs/DEPLOY.md",
+      "size_bytes": 897,
+      "sha256": "4ec4026ae8068638b544f8fbc6989a82f7e5b295d37b09ef0610bb5b0b9935d3"
+    },
+    {
+      "path": "docs/METHOD.md",
+      "size_bytes": 1258,
+      "sha256": "862dd7e709c61aca365b3a1b112b89f168eec33e499205285e69f249a3f77ad1"
+    },
+    {
+      "path": "docs/flowchart-pipeline.png",
+      "size_bytes": 820109,
+      "sha256": "72bf1f42f2974388e9ca617410ba2c0bdcdc601967372e93bcee2df5ddae52d8"
+    },
+    {
+      "path": "model/leptoscope_selected_model.pkl",
+      "size_bytes": 6566,
+      "sha256": "7c9c5d69de2f2abb35e824ab7ffa0fe898c6ab875a0d7b136334c6de61a7af63"
+    },
+    {
+      "path": "model/model_metadata.json",
+      "size_bytes": 1841,
+      "sha256": "8b1215b429ef7d7f3d5851a4a582e1baad92482db16094ace9eb7dd162072f71"
+    },
+    {
+      "path": "render.yaml",
+      "size_bytes": 228,
+      "sha256": "41ef8d3f899bba569dc793272c00c19d2e6975ea66b4502d0352fa63a2395025"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 104,
+      "sha256": "961e6f71439d6ffb097c5fdf90234e74d775e5dd4692dbc27cf9165a53745cb4"
+    }
+  ]
+}
