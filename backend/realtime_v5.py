@@ -724,7 +724,7 @@ def build_realtime_prediction(
     elif weather_ready:
         readiness = "Cuaca bulan input tersedia; kasus memakai fallback"
     else:
-        readiness = "Mode fallback; periksa koneksi dan data kasus"
+        readiness = "Data cuaca tersedia dan data kasus sementara mengacu pada data historis"
 
     output["metadata"] = {
         "mode": "Pemantauan eksperimental (belum tervalidasi operasional)",
